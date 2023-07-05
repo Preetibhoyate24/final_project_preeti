@@ -1,0 +1,96 @@
+@@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+  
+.veg{
+    min-height: 70vh;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(home/top-view-circular-food-frame.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header{
+    background: rgba(12,11,9,0,6);
+    height: 150px;
+}
+header h1{
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 30px 0 20px 0;
+    text-transform: uppercase;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+header nav ul:nth-child(8){
+    color: #dd1515;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 600;
+   transition: 0.4s ease-in;
+}
+header nav ul li a:hover{
+    color: #CDA45E;
+}
+.cart{
+    padding: 5px 30px;
+    margin-left: 30px;
+    border: 0;
+    outline: 0;
+    background-color: #CDA45E;
+    color: #292929;
+    font-size: 17px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.4s ease-in;
+    
+}
+.cart:hover{
+    color: #CDA45E;
+    background-color: transparent;
+    border: 2px solid #CDA45E;
+}
+
+.cart{
+    margin-left: 10px;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .food-box{
+    height: 100px;
+    width: 100px;
+    background: #CDA45E;
+}
+
