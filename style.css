@@ -12,6 +12,11 @@
     background: linear-gradient(rgb(152, 152, 167),rgba(0,0,0,0.6)),url(home/pexels-ella-olsson-1640773.jpg);
     background-repeat: no repeat;
 }
+
+.contact{min-height: 150vh;
+    background: linear-gradient(rgba(12, 12, 12, 0.6),rgba(0,0,0,0.6)),url(home/pexels-ella-olsson-1640773.jpg);
+    background-size: cover;
+    background-attachment: fixed;}
 nav{
     display:flex;
     justify-content: space-between;
@@ -66,13 +71,43 @@ color: aquamarine;
     height: 80vh;
     margin-top: 50px;
 }
+.mybanner{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 50px;d
+
+}
 
 .banner h2{
 
-    color: rgb(231, 238, 238);
+        text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(20, 17, 16);
+}
+.mybanner h1{
+
+    color: rgb(20, 17, 16);
     text-transform: uppercase;
     letter-spacing: 5px;
-    border: 1px solid rgb(4, 6, 128);
+    border: 1px dashed rgb(216, 7, 7);
+    padding: 20px;
+    font-size: 40px;
+    font-style: oblique;
+    font-stretch: extra-condensed;
+    margin-top: 50px;
+    
+}
+.mybanner h2{
+
+    color: rgb(230, 99, 12);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 5px solid rgb(2, 2, 19);
     padding: 20px;
     font-size: 30px;
 }
@@ -88,6 +123,15 @@ color: aquamarine;
     font-family:'Dancing Script', cursive; 
 
 }
+
+.mybanner h3{
+    color: rgb(57, 19, 230);
+    padding: 20px;
+    font-weight: 500;
+    font-size: 35px;
+    font-family:'Dancing Script', cursive; 
+
+}
 .special{
     display: flex;
     justify-content: center;
@@ -97,7 +141,7 @@ color: aquamarine;
 .special h1{
     background-color: #cda45e;
     padding: 10px;
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     position: absolute;
     margin-top: 1px;
@@ -126,12 +170,12 @@ color: aquamarine;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid #cda45e;
-    margin-top: 5px
+    margin-top: 10px
     ;
 }
 .special-box h2{
     color: rgb(196, 140, 68);
-    font-size: 18px;
+    font-size: 12px;
     font-family: 400;
     padding: 10px;
 }
