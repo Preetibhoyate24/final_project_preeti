@@ -8,7 +8,7 @@
 }
 
 .home{
-    height: 180vh;
+    height: 80h;
     background: linear-gradient(rgb(152, 152, 167),rgba(0,0,0,0.6)),url(home/pexels-ella-olsson-1640773.jpg);
     background-repeat: no repeat;
 }
@@ -68,8 +68,9 @@ color: aquamarine;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    margin-top: 50px;
+    height: 50vh;
+    margin-top: 20px;
+    margin-bottom: 0%;
 }
 .mybanner{display: flex;
     flex-direction: column;
@@ -79,10 +80,27 @@ color: aquamarine;
     margin-top: 50px;d
 
 }
+.today h1{text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid red;    
+    padding: 20px;
+    font-size: 25px;
+    color: yellow;
+    margin-top 1px;
 
+}
+
+.name {
+    color: black;
+    background-color: blue;
+    display: list-item;
+    width: 30%;
+    padding: 20px;
+    align-content: center;
+}
 .banner h2{
 
-        text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 5px;
     border: 1px solid red;
     padding: 20px;
@@ -109,7 +127,8 @@ color: aquamarine;
     letter-spacing: 5px;
     border: 5px solid rgb(2, 2, 19);
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 200px;
 }
 .banner h2 span{
     color: rgb(10, 8, 150);
@@ -125,11 +144,22 @@ color: aquamarine;
 }
 
 .mybanner h3{
-    color: rgb(57, 19, 230);
+    color: rgb(245, 241, 10);
     padding: 20px;
     font-weight: 500;
+    font-size: 25px;
+    font-family:'Dancing Script', cursive; 
+
+}
+.mybanner h4{
+    color: rgb(13, 14, 126);
+    padding: 20px;
+    font-weight: 600;
     font-size: 35px;
     font-family:'Dancing Script', cursive; 
+    text-decoration-style: double;
+    margin-top: 50px;
+
 
 }
 .special{
@@ -150,10 +180,11 @@ color: aquamarine;
     
 }
 .special .special-box{
-    height: 200px;
+    height: 230px;
     width: 160px;
-    background: rgba(0,0,0,0.6);
-    margin-top: 100px;
+    background: rgba(80, 52, 52, 0.6);
+    margin-top:20px;
+    margin-bottom: 30px;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
     border: 2px solid #cda45e;
@@ -161,6 +192,9 @@ color: aquamarine;
     justify-content: center;
     align-items: center;
     display: flex;
+    transition: 0.3,ease-in;
+    cursor: pointer;
+    outline:0;
     
 }
 .special-box img{
@@ -172,10 +206,13 @@ color: aquamarine;
     border: 5px solid #cda45e;
     margin-top: 10px
     ;
+    transition: 0.3,ease-in;
+    cursor: pointer;
+    outline:0;
 }
 .special-box h2{
     color: rgb(196, 140, 68);
-    font-size: 12px;
+    font-size: 15px;
     font-family: 400;
     padding: 10px;
 }
@@ -184,4 +221,7 @@ color: aquamarine;
     font-size: 15px;
     font-weight:900PX ;
     padding: 5px;
+    box-sizing: 5px;
+    transition: 0.3,ease-in;
+    display: flex;
 }

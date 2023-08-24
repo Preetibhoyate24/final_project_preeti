@@ -1,5 +1,6 @@
 @@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -95,10 +96,10 @@ header nav ul li a:hover{
 .cart{
     padding: 5px 30px;
     margin-left: 30px;
-    border: 0;
+    border: 1px0;
     outline: 0;
-    background-color: #CDA45E;
-    color: #292929;
+    background-color: #2b2316;
+    color:#CDA45E;
     font-size: 17px;
     border-radius: 3px;
     cursor: pointer;
@@ -118,7 +119,7 @@ header nav ul li a:hover{
 .cart-count{
     position:absolute;
     background-color: #CDA45E;
-    color: #292929;
+    color: #271919;
     text-align: center;
     top: 80px;
     right: 400px;
@@ -130,23 +131,25 @@ header nav ul li a:hover{
     font-weight: 600;
     z-index: 10;
 }
-
+/*.......cart section.....*/
 .cart{
     position: fixed;
     top: 0;
-    right:-50%;
-    width: 400px;
+    right:0px;
+    width: 300px;
     height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    background color: rgba(12,11,9,0,6);
-    box-shadow: 0 1px 4 px rgba(12,11,9,0,6);
+    color: #CDA45E;
+    text-transform: uppercase;
+    background-color: rgba(12,11,9,1);
+    box-shadow: 0 1px 4px rgba(11,9,0,6);
     padding: 20px;
     z-index: 100;
 }
 
 .cart-active{
-    right:0;
+    right:20px;;
     transition: 0.4s ease;
 }
 
@@ -174,6 +177,7 @@ header nav ul li a:hover{
      width:75px ;
      border: radius 50%;
      border: #292929; 
+     background-color: #CDA45E;
      padding: 5px;
 }
 
@@ -188,7 +192,7 @@ header nav ul li a:hover{
 }
 
 .cart-food-title{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
 }
 .cart-price{
@@ -201,19 +205,18 @@ header nav ul li a:hover{
 }
 
 .cart-quantity{
-    background-color: #181614;
-    color: #CDA45E;
+    background-color: #ce7d05;
+    color: #1d1405;
     border:none;
     outline:none;
     width:40px;
     height:20px;
-    
     font-size: 15px;
     text-align: center;
 }
 
 .cart-remove{
-    font-size: 25px;
+    font-size: 15px;
     cursor:pointer;
 }
 
@@ -241,7 +244,7 @@ header nav ul li a:hover{
     outline:0;
     background: transparent;
     border:2px solid #241805;
-    color:#0a421c;
+    color:#cda45e;
     text-transform: uppercase;
     font-size: 15px;
     cursor: pointer;
@@ -253,7 +256,8 @@ header nav ul li a:hover{
     background: #CDA45E;
 }
 
-#cart-closed{
+/*..............Food Section.........*/
+#cart-close{
     position: absolute;
     top:20px;
     right:20px;
@@ -267,19 +271,19 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    min-height: 80vh;
     padding: 50px;
     margin: 50px;
     border: 2px solid #CDA45E;
 }
 
 .container .food-box{
-    height: 160x;
-    width: 150px;
-    background: #2c1d07;
+    height: 200x;
+    width: 200px;
+    background: #201c1c;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
-    border: 2px solid #CDA45E;
+    border: 2px solid #292929;
     display: flex;
     flex-direction: column;
     justify-content: center;

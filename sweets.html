@@ -4,7 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Veg Foods</title>
-    <link rel="stylesheet" href="food-style.css" >
+    <link rel="stylesheet" href="food-style.css">
+    <script src="g.js"></script>
 </head>
 <body>
     <section class="Sweets">
@@ -16,25 +17,26 @@
             <nav>
                 <ul>
                     <li><a href="dasboard.html">home</a>  </li>
+                    <li><a href="veg-index.html">Veg</a>  </li>
                     <li><a href="nonveg.html">Non-veg</a>  </li>
                     <li><a href="sweets.html">Sweets</a>  </li>
                     <li><a href="cakes.html">cakes</a>  </li>
-                    <li><a href="">contact</a>  </li>
-                    <button class="btn-cart"> Cart
+                    <li><a href="contact.html">contact</a> </li>
+                    
+                    <button class="add-cart"> Cart
                         <i class="fa fa-cart-plus" id="cart-icon"></i> 
                     </button>
 
-                    <div class="cart-count">0</div>
-                    </ul>
+                    <div class="cart-count">4</div>
+                    
             </nav>
-
+<!--==============Cart section=============---->
 
             <div class="cart">
                 <div class="cart-title">Cart items</div>
                 <div class="cart-content">
                     
-                    
-                        
+                               
 
                                 <div class="cart-box">
                                 <img src="images/South indian/Uttapam.jpg" class="cart-img">
@@ -48,7 +50,7 @@
                                     <input type="number" value="1" class="cart-quantity">
         
                                 </div>
-                                <i class="fa fa-trash" aria-hidden="true"></i>
+                                <i class="fa fa-trash cart-remove"></i>
                                 
                             </div>
 
@@ -62,19 +64,21 @@
                                         <div class="cart-amt">Rs.250</div>
                                     </div>
                                     <input type="number" value="1" class="cart-quantity">
-        
+                                    <i fa fa-trash ></i>
+                                    <div class="cart-remove"></div>
                                 </div>
-                                <i class="fa fa-trash" aria-hidden="true"></i>
+                               
                                 
                             </div>
+                            </div>
                             <div class="total">
-                                <div class="total-title">TOTAL</div>
+                                 <div class="total-title">TOTAL</div>
                                 <div class="total-price">Rs.0</div>
                             </div>
                             <button class="btn-buy">place order</button>
-                            <i class="fa fa-window-close" aria-hidden="true" id="cart-close"></i> </i>
+                            <i class="fa fa-close" id="cart-close"></i> 
                             
-                </div>...>
+                </div>
                
                 
            
@@ -161,6 +165,6 @@
         </div>
        
     </section>
-    <script src="g.js"> </script>
+    
 </body>
 </html>
